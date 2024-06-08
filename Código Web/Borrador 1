@@ -265,7 +265,7 @@
 		<p><b>primer_artista_id, playlist_id, playlist:</b> Información sobre la playlist.</p>
 		<p><b>explicit:</b> Indica si la canción contiene contenido explícito.
 		</p>
-
+		<p>Aunque se proporciona una gran cantidad de información, es posible que algunos campos específicos no contengan datos para todas las filas, lo que puede deberse a la falta de información disponible en Spotify para ciertas canciones o artistas. </p>
                 <!-- Exemple de Fragment de codi generat amb http://hilite.me/ -->
                 <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">import</span> <span style="color: #f8f8f2">capturer.crawler</span> <span style="color: #66d9ef">as</span> <span style="color: #f8f8f2">c</span>
     <span style="color: #f92672">import</span> <span style="color: #f8f8f2">export</span> <span style="color: #66d9ef">as</span> <span style="color: #f8f8f2">e</span>
