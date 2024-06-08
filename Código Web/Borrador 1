@@ -43,6 +43,7 @@
                 <p>Para la obtención de los datos de las playlist se ha utilizado Pycharm y la API de Spotify. Asimismo, se han descargado diferentes librerías y utilizado diversos módulos como pandas para trabajar con datos estructurados, glob para ejecutar archivos y directorios, spotipy, JSON, etc.</p>
 		<p>Previamente, se elaboró manualmente un archivo excel llamado “playlist.xlsx” con datos de 73 playlists que contienen el país, la ID y el nombre de la playlist.</p>
 		<p><b>Primera extracción de Datos</b></p>
+		<a href="https://github.com/lauracampuu/TREBALLFINAL_BIGDATA/blob/main/HTML_WEB/HtmlWeb" target="_blank">Enlace al respositorio GitHub</a>
 		<p>El siguiente código hace uso de la biblioteca Spotipy y realiza llamamientos a la API de Spotify para la obtención de datos sobre listas de reproducción de diferentes países y los guarda en archivos JSON.</p> 
 		<p>Luego, utiliza un archivo Excel llamado "playlist.xlsx" que contiene las IDs de las playlists que se quieren extraer. Los datos obtenidos se cargan en Dataframes de Pandas que lee cada una de las ID de las playlist y su país correspondiente.</p>
 <!-- HTML generated using hilite.me --><div style="background: #000000; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #cccccc">playlists</span> <span style="color: #3399cc">=</span> <span style="color: #cccccc">pd</span><span style="color: #3399cc">.</span><span style="color: #cccccc">read_excel(</span><span style="color: #cd0000">&quot;playlist.xlsx&quot;</span><span style="color: #cccccc">)</span>
@@ -311,7 +312,6 @@
             <footer>
 			<hr>
 			<p>
-               AUTORES
             </p>
 
 			</footer>
