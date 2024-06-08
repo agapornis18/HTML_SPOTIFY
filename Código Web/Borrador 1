@@ -236,7 +236,6 @@
 		<p>Para separarlos, haciendo uso de excel, procedimos a seleccionar la columna y a través de la función Dividir texto en columnas usando la coma como delimitador conseguimos separar los géneros en otras columnas. Además, para trabajar con unos datos más limpios procedimos a eliminar comillas simples y corchetes haciendo uso de la función buscar y reemplazar.</p>
 
 		<h3>Presentación del dataset</h3>
-                <p>(poner html del dataset)</p>
 		<p>El dataset en cuestión recoge información sobre 74 playlists de Spotify, cada una representando un país diferente de todo el mundo. Con un total de 3651 filas y 31 columnas, este conjunto de datos proporciona una visión amplia de la popularidad musical global y las características de las canciones incluidas en estas playlists.</p>
                 <p>El dataset contiene, 3651 filas que dada fila representa una canción única incluida en una de las 74 playlists, y 31 columnas que abarcan diversas características tanto de los artistas como de las canciones. </p>
 		<p>En cuanto a la integridad de los datos, es importante señalar qué información está disponible y cuál podría estar incompleta. Las columnas incluyen, entre otras, información sobre el número de seguidores del artista, géneros musicales, popularidad del artista, características de las canciones (como danceability, energy, key, loudness… y detalles específicos de las canciones (como duración, popularidad, nombre, y si es explícita o no). </p>
